@@ -1,0 +1,48 @@
+/* ************************************** */
+.nav-btn{
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border:none ;
+    outline: none;
+    color:rgb(65, 114, 65);
+    display: none;
+    opacity:0;
+    font: 34px;
+
+    }
+    
+    @media only screen and (max-width:1024px){
+        .nav-btn{
+            display: block;
+            opacity: 1;
+            font-size: 25px;
+            margin-left: 30px;
+        }
+        .van{
+            position: fixed;
+            top:0;
+            left:0;
+            height:100%;
+            width:100%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            gap:1.5rem;
+            background-color: #5ecac3;
+            transition: 1s;
+            z-index: 1000;
+            transform:translateY(100vh) ;
+        }
+        .responsive_nav{
+            transform: none;
+        }
+        .nav-close-btn{
+            position :absolute;
+            top: 2rem;
+            right:2rem;
+        }
+     
+    }
+    
