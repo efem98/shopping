@@ -141,10 +141,10 @@
 }
 
 @media only screen and (max-width:1024px){
-	.btn {
+	/* .btn {
         left: 89%;
         top: 62px;
-    }
+    } */
 	.btn2{
 		margin-left: 0px;
 		margin-top: 20px;
