@@ -530,7 +530,7 @@ const onProductRemove = (product) => {
      </div>
      <div className="product-good  section1">
      
-       <img src="images/female2.jpg" />
+       <img src="images/gown2.jpeg" />
        
        <div className="description">
          <span>Adidas</span>
