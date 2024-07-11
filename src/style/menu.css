@@ -33,7 +33,7 @@
             background-color: #5ecac3;
             transition: 1s;
             z-index: 1000;
-            transform:translateY(100vh) ;
+            transform:translateY(-100vh) ;
         }
         .responsive_nav{
             transform: none;
