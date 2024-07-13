@@ -746,13 +746,8 @@ font-size: 25px;
 }
 
 
-
-.nav2 .search-bar button{
-	width: 50px;
-}
-
-
-
+.nav2 .search-bar button,
+.nav2 .search-bar input,
 .nav2 .search-bar .all-box{
 	display: none;
 }
